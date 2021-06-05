@@ -7,6 +7,7 @@
 }
 
 .navbar {
+    position: sticky;
     width: 100%;
     background-image: url(../images/image5.jpg);
     height: 70vh;
@@ -15,7 +16,6 @@
     background-size: cover;
 
 }
-
 
 .nav {
     display: flex;
@@ -51,7 +51,6 @@ a:visited {
     box-shadow: 0px 4px 4px 1px rgba(46, 34, 1, 0.2);
 }
 
-
 a:hover,
 a:active {
     background-color: #d19c09;
@@ -84,5 +83,21 @@ blockquote {
 
 #intro img {
     float: right;
+}
+
+/* contact form  */
+
+#form {
+    width: 400px;
+    max-width: 100%;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.contact input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px;
 }
 
