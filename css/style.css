@@ -87,17 +87,24 @@ blockquote {
 
 /* contact form  */
 
-#form {
+.form {
     width: 400px;
     max-width: 100%;
     position: absolute;
     margin-left: 25%;
-    margin-top: 10%;
+    margin-top: 4%;
 }
 
-.contact input:first-child {
-    display: inline-block;
+.form .contact {
     width: 100%;
-    padding: 14px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #047CC1;
 }
 
+#skills {
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 4%;
+}
