@@ -9,16 +9,13 @@
 .navbar {
     width: 100%;
     background-image: url(../images/image5.jpg);
-    height: 100vh;
+    height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-/* .navbar img {
-    float: right;
-} */
 
 .nav {
     display: flex;
@@ -54,12 +51,6 @@ a:visited {
     box-shadow: 0px 4px 4px 1px rgba(46, 34, 1, 0.2);
 }
 
-a:hover,
-a:active {
-    background-color: #d19c09;
-    cursor: pointer;
-    transition: all .4s ease;
-}
 
 a:hover,
 a:active {
@@ -75,14 +66,23 @@ a:active {
 }
 
 #intro {
-    line-height: 200%;
+    line-height: 700%;
+    letter-spacing: 1px;
     color: cornsilk;
 }
 
 #intro h1{
-    font-size: 72px;
+    font-size: 10vw;
+    text-align: center;
+    padding-top: 10vw;
+    font-weight: 100;
+}
+blockquote {
+    font-size: 2vw;
+    text-align: center;
 }
 
 #intro img {
     float: right;
 }
+
