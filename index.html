@@ -1,86 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <div class="navbar">
-      <nav class="nav">
-        <img src="images/Evans Mutwiri.svg" alt="logo" />
-        <ul>
-          <li>
-            <a href="index.html#skills">About <span>Me</span></a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-            <ul>
-              <li><a href="https://evansmutwiri.github.io/thismyfavouriteband/" target="_blank">My Favourite Band</a></li>
-              <li><a href="https://evansmutwiri.github.io/ziwa-fresh-farm/" target="_blank">Dairy Farm</a></li>
-              <li><a href="https://evansmutwiri.github.io/AnitasKitchen/" target="_blank">Anitas Kitchen</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
-        <a href="#" class="number"> + 254 797 7373 73 </a>
-      </nav>
-      <div id="intro">
-        <img src="images/Evans.png" alt="graphic" height="800px" />
-        <h1>Hello.</h1>
-        <blockquote>
-          I am a Web Developer, Web Designer, <br />
-          Freelance Vector graphics artist.
-        </blockquote>
-      </div>
-      <div class="form">
-        <form class="contact">
-          <input
-            class="mail"
-            type="email"
-            name="email"
-            placeholder="Enter your email address."
-          />
-          <input type="submit" name="submit" value="Get quotation" />
-        </form>
-      </div>
-    </div>
-    <div class="grid-container">
-      <div class="background">
-        <h1>backGround</h1>
-        <P>Passion brought us here. I am a student at <span>Moringa School</span> Where i'm learning to code. <br> Previously I was a freelance graphic designer specializing in vector <em>portraits</em> and <em>logos</em>.</P>
-      </div>
-      <div id="skills">
-        <h1>mySkills</h1>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JAVASCRIPT</li>
-          <li>Adobe Illustrator</li>
-        </ul>
-      </div>
-      <div class="pastwork">
-        <h2>Past work</h2>
-        <ol>
-          <a href="https://evansmutwiri.github.io/thismyfavouriteband/"
-            >My Favourite Band</a
-          >
-          <p>This is a fan site for my favourite band. Enjoy.</p>
-          <a href="https://evansmutwiri.github.io/ziwa-fresh-farm/"
-            >Dairy Farm Management system</a
-          >
-          <p>A Dairy Farm management system to track the <strong>daily, monthly and yearly production</strong> and respective <strong>revenues.</strong></p>
-          <a href="https://evansmutwiri.github.io/AnitasKitchen/"
-            >Anitas Kitchen</a>
-            <p>Anita's Kitchen is a small restaurant in the heart of the city that serves delicious meals.</p>
-        </ol>
-      </div>
-    </div>
-    <div id="contactme">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>My Portfolio</title>
+</head>
+
+<body>
+
+  <!-- Navigation bar and page header -->
+
+  <div class="navbar">
+    <nav class="nav">
+      <img src="images/Evans Mutwiri.svg" alt="logo" />
+      <ul>
+        <li>
+          <a href="index.html#skills">About <span>Me</span></a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+          <ul>
+            <li><a href="https://evansmutwiri.github.io/thismyfavouriteband/" target="_blank">My Favorite Band</a></li>
+            <li><a href="https://evansmutwiri.github.io/ziwa-fresh-farm/" target="_blank">Dairy Farm</a></li>
+            <li><a href="https://evansmutwiri.github.io/AnitasKitchen/" target="_blank">Anita's Kitchen</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+      <a href="#" class="number"> + 254 797 7373 73 </a>
+    </nav>
+    <div id="intro">
+      <img src="images/Evans.png" alt="graphic" height="800px" />
+      <h1>Hello.</h1>
+      <blockquote>
+        I am a Web Developer, Web Designer, <br />
+        Freelance Vector graphics artist.
+      </blockquote>
     </div>
-  </body>
+    <div class="form">
+      <form class="contact">
+        <input class="mail" type="email" name="email" placeholder="Enter your email address." />
+        <button type="submit">
+          subscribe
+        </button>
+        <input type="checkbox" id="terms">
+        <label for="terms"> I accept the terms and conditions
+      </form>
+    </div>
+  </div>
+
+  <!-- Intro section background and skills -->
+
+  <div class="container">
+    <div class="background">
+      <h1>backGround</h1>
+      <P>Passion brought us here. I am a student at <span>Moringa School</span> Where i'm learning to code. <br>
+        Previously I was a freelance graphic designer specializing in vector <em>portraits</em> and <em>logos</em>. <br>
+        I love the idea of creating awesome mobile applications.</P>
+    </div>
+    <div id="skills">
+      <h1>mySkills</h1>
+      <ul>
+        <li><i class="fa fa-html5" style="font-size:24px;color:red"></i>HTML</li>
+        <li><i class="fa fa-css3" style="font-size:24px;color:red"></i>CSS</li>
+        <li><i class="fa fa-html5" style="font-size:24px;color:red"></i>JAVASCRIPT</li>
+        <li><i class="fa fa-html5" style="font-size:24px;color:red"></i>Adobe Illustrator</li>
+      </ul>
+    </div>
+    <div class="pastwork">
+      <h2>Past work</h2>
+      <ol>
+        <a href="https://evansmutwiri.github.io/thismyfavouriteband/">My Favorite Band</a>
+        <p>This is a fan site for my favorite band. Enjoy.</p>
+        <a href="https://evansmutwiri.github.io/ziwa-fresh-farm/">Dairy Farm Management system</a>
+        <p>A Dairy Farm management system to track the <strong>daily, monthly and yearly production</strong> and
+          respective <strong>revenues.</strong></p>
+        <a href="https://evansmutwiri.github.io/AnitasKitchen/">Anita's Kitchen</a>
+        <p>Anita's Kitchen is a small restaurant in the heart of the city that serves delicious meals.</p>
+      </ol>
+    </div>
+  </div>
+  <hr style="height:2px;border-width:0;color:cornsilk;background-color:cornsilk">
+  <div id="contactme">
+    <h2>Check me out</h2>
+    <p><a href="https://twitter.com/1Twiri"><button style="font-size:24px">Twitter <i class="fa fa-twitter"></i></button></a></p>
+    <p><a href="https://twitter.com/1Twiri"><button style="font-size:24px">Reddit <i class="fa fa-reddit-alien"></i></button></p>
+    <p><a href="https://pinterest.com/"><button style="font-size:24px">Github <i class="fa fa-github"></i></button></a></p>
+  </div>
+</body>
 </html>

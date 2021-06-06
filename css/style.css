@@ -17,6 +17,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* position: fixed; */
 
 }
 
@@ -63,7 +64,7 @@ a:link, a:visited {
 
 a:hover,
 a:active {
-    background-color: #d19c09;
+    /* background-color: #d19c09; */
     cursor: pointer;
     transition: all .4s ease;
     transform: scale(1.03);
@@ -115,12 +116,13 @@ blockquote {
 .form {
     width: 400px;
     max-width: 100%;
-    position: absolute;
-    margin-left: 25%;
+    position: relative;
+    margin-left: auto;
     margin-top: 4%;
+    margin-right: auto;
 }
 
-.form .contact {
+.contact {
     width: 100%;
     padding: 10px;
     border: 1px solid;
@@ -134,7 +136,7 @@ blockquote {
     margin-bottom: 4%;
 }
 
-.grid-container {
+.container {
     box-sizing: border-box;
     border: 1px solid transparent;
     background-color: rgba(255, 248, 220, 0.418);
@@ -145,11 +147,11 @@ blockquote {
     margin-top: 4rem;
 }
 
-.grid-container h1 {
+.container h1 {
     color: cornsilk;
     text-align: center;
 }
-.grid-container #skills ul {
+.container #skills ul {
     list-style: none;
 }
 .pastwork h2 {
@@ -159,4 +161,11 @@ blockquote {
 
 .pastwork a {
     color: #d19c09;
+}
+
+hr {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    margin-left: 10%;
+    margin-right: 10%;
 }
