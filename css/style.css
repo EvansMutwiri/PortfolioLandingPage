@@ -136,6 +136,15 @@ blockquote {
     margin-bottom: 4%;
 }
 
+.pastwork {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    background-color: rgba(255, 248, 220, 0.418);
+    width: 50%;
+    margin: auto;
+    padding: 6rem;
+    line-height: 2;
+}
 .pastwork h2 {
     color: #d19c09;
 }
