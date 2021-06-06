@@ -6,6 +6,10 @@
         outline: none;
 }
 
+body {
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
 html {
     background-color: #047CC1;
     scroll-behavior: smooth;
@@ -142,7 +146,7 @@ blockquote {
 #container {
     box-sizing: border-box;
     border: 1px solid transparent;
-    background-color: rgba(255, 248, 220, 0.418);
+    background-color: rgba(255, 248, 220, 0.445);
     width: 50%;
     margin: auto;
     padding: 6rem;
@@ -175,7 +179,7 @@ hr {
     margin-right: 10%;
 }
 
-.footer {
+#footer {
     box-sizing: border-box;
     padding: 50px;
     /* border: 1px solid black; */
