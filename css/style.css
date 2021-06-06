@@ -177,12 +177,16 @@ hr {
 
 .footer {
     box-sizing: border-box;
+    padding: 50px;
     /* border: 1px solid black; */
     background-color: #d19c09;
     background-blend-mode: lighten;
     /* text-align: center; */
     width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
 }
 
-.contactme {
+.contactme button{
+    background-color: blue;
 }
