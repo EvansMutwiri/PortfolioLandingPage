@@ -144,11 +144,17 @@ blockquote {
     line-height: 2;
     margin-top: 4rem;
 }
+
+.grid-container h1 {
+    color: cornsilk;
+    text-align: center;
+}
 .grid-container #skills ul {
     list-style: none;
 }
 .pastwork h2 {
     color: #d19c09;
+    text-align: center;
 }
 
 .pastwork a {
