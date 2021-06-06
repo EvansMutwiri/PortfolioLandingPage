@@ -6,11 +6,15 @@
         outline: none;
 }
 
+html {
+    background-color: #047CC1;
+}
+
 .navbar {
     width: 100%;
     background-image: url(../images/image5.jpg);
-    height: 70vh;
-    background-position: top;
+    height: 100vh;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -18,12 +22,12 @@
 
 .nav {
     display: flex;
-    /* align-items: center; */
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
     font-size: 2.6vh;
     padding: 2px;
     letter-spacing: 1px;
-    /* position: fixed; */
+    position: relative;
 }
 
 .nav ul {
@@ -31,10 +35,6 @@
 }
 .nav ul li{
     list-style: none;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* float: left; */
-    cursor: pointer;
 }
 
 span {
@@ -47,21 +47,18 @@ span {
     padding: 20px;
 }
 
-a:link,
-a:visited {
+a:link, a:visited {
     color: #047CC1;
     text-decoration: none;
     display: block;
     box-shadow: 0px 2px 4px 0px rgba(70, 56, 18, 0.2);
 }
 
-.nav ul
-li:hover,
-li:active {
+.nav ul li:hover, li:active {
     background-color: #d19c09;
     cursor: pointer;
     transition: all .4s ease;
-    transform: scale(1.03);
+    /* transform: scale(1.03); */
 }
 
 a:hover,
@@ -78,6 +75,7 @@ a:active {
 
 .nav ul li:hover > ul {
     display: block;
+    transition: all 1s ease;
 }
 
 .number {
@@ -85,6 +83,9 @@ a:active {
     border-radius: 30px;
 }
 
+.number a:hover {
+    padding
+}
 #intro {
     margin-left: 25%;
     line-height: 1;
@@ -135,3 +136,10 @@ blockquote {
     margin-bottom: 4%;
 }
 
+.pastwork h2 {
+    color: #d19c09;
+}
+
+.pastwork a {
+    color: #d19c09;
+}
