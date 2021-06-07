@@ -1,15 +1,22 @@
 # My Portfolio Landing Page
 - This is the portfolio for Evans Mutwiri.  
 
-## Installation
-Click on this link to view live page. [https://evansmutwiri.github.io/PortfolioLandingPage/]    
+## Set up and Installation
+Click on this link to view [live page.](https://evansmutwiri.github.io/PortfolioLandingPage/)    
 Compatible with most browsers. Checked on chrome web browser.  
+- Clone the project  
+- Open with vscode
+- Open with live server to see live page on your browser.  
 
 ## Technology used
 The project uses HTML and CSS styling.  
 
+## Known bugs
+There are no known bugs.  
+Kindly report the bugs for checking and fixing.  
+
 ## Authors and Contribution
-- The site is coded by **Evans Mutwiri** for Moringa School Prep Program.   
+- The site is written by [**Evans Mutwiri**](https://github.com/EvansMutwiri).   
 - Contributions are welcome.  
 - To contribute just clone and push to your special branch.  
 
