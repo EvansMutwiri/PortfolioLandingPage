@@ -12,3 +12,7 @@ The project uses HTML and CSS styling.
 - The site is coded by **Evans Mutwiri** for Moringa School Prep Program.   
 - Contributions are welcome.  
 - To contribute just clone and push to your special branch.  
+
+## License
+
+[License](LICENSE.txt)
