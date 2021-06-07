@@ -2,7 +2,7 @@
 - This is the portfolio for Evans Mutwiri.  
 
 ## Installation
-Click on this link to view live page.  
+Click on this link to view live page. [https://evansmutwiri.github.io/PortfolioLandingPage/]    
 Compatible with most browsers. Checked on chrome web browser.  
 
 ## Technology used
